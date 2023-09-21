@@ -10,6 +10,6 @@ mayor y escribirlo.
 
 ### Diagrama de Flujo
 
-
+<img src="images/diagrama-flujo.png"/>
 
 </div>
