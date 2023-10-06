@@ -30,4 +30,17 @@ mayor y escribirlo.
  el mayor”
  - Fin_Si 
  - Fin
+
+## Ejercicio 2 <a name = "ejercicio"><a/>
+Desarrolle un algoritmo que permita leer tres valores y almacenarlos en las variables A, B y C
+respectivamente. El algoritmo debe imprimir cual es el mayor y cual es el menor. Recuerde constatar que
+los tres valores introducidos por el teclado sean valores distintos. Presente un mensaje de alerta en caso de
+que se detecte la introducción de valores iguales.
+
+### Diagrama Flujo
+
+<img src="images/Diagrama-flujo-2.png"/>
+
+
 </div>
+
