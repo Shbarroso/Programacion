@@ -1,14 +1,11 @@
 package ies.puerto;
 
 public class Ejercicio2 {
-    public int calcularNumero(int numero) {
-        int resultado = 0;
+    public boolean signo (int numero) {
+        boolean positivo = false;
 
         if (numero > 0) {
-            return "El número es positivo.";
-        } else if (numero < 0) {
-            return "El número es negativo.";
-        } else {
+           positivo
             return "El número es cero.";
         }
 

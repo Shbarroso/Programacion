@@ -1,10 +1,15 @@
 package ies.puerto;
 
 public class Ejercicio1 {
-    public int calcularSueldoHoras( int numerosHoras) {
-        int sueldo = 0;
-        int sueldo = numerosHoras *10;
-        int horasTrabajada = 160;
+    /**
+     * Funcion para calcular el sueldo
+     * @param numerosHoras trabajadas
+     * @return sueldo
+     */
+    public float calcularSueldoHoras( float numerosHoras) {
+        float sueldo = 0;
+
+        float sueldo = numerosHoras *10;
 
 
         return sueldo;
