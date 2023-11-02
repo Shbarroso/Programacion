@@ -1,19 +1,23 @@
 package ies.puerto;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Ejercicio3 {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        int[] numeros = {30, 10, 50, 20, 40};
+        int maximo = numeros[0];
+        for (int i = 1; i < numeros.length; i++) {
+            if (numeros[i] > maximo) {
+                maximo = numeros[i];
+            }
+        }
+    }
+    public static void main(String[] args) {
+        int[] numeros = {30, 10, 50, 20, 40};
+        int minimo = numero[5];
+        for (int i = 1; i > numeros.length; i--) {
+            if (numeros[i] < minimo) {
+                minimo = numeros[i];
+            }
         }
     }
 }

@@ -9,6 +9,6 @@ public class Ejercicio2Test {
     @Test
     public float calcularPromedioTest () {
         float resultado = ejercicio2.calcularPromedio()
-        Assersions.assertEquals()
+        Assersions.assertEquals( )
     }
 }
