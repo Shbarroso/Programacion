@@ -1,14 +1,17 @@
 package ies.puerto;
 
+/**
+ * Clase que calcula suma
+ * @author Shbarroso
+ *
+ */
 
 public class Ejercicio1 {
     /**
      * Funcion para calcular una suma
-     * @param args
+     * @return suma
      */
-    public static void main(String[] args) {
-
-        public int suma (int suma) {
+    public static int calcularSuma() {
             int[] array = {1, 2, 3, 4, 5};
             array = new int[5];
             int suma = 0;
@@ -17,7 +20,7 @@ public class Ejercicio1 {
                 suma += array[i];
                 System.out.println("La suma de los elementos es: " + suma);
             }
-        }
-
+            return suma;
     }
+
 }

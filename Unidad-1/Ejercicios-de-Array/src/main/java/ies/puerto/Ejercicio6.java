@@ -1,9 +1,15 @@
 package ies.puerto;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+/**
+ * Funcion para calcular una matriz transpuesta.
+ * @author Shbarroso
+ */
 public class Ejercicio6 {
-    public static void main(String[] args) {
+    /**
+     * Dada una matriz cuadrada, encuentra su transpuesta.
+     * @return
+     */
+    public static int calcularMatrizTraspuesta() {
 
         int[][] matriz = {{1, 2, 3}, {4, 5, 6}};
 
@@ -17,6 +23,6 @@ public class Ejercicio6 {
             }
             System.out.println();
         }
-
+        return
     }
 }

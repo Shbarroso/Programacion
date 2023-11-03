@@ -1,12 +1,14 @@
 package ies.puerto;
 
+import org.junit.jupiter.api.Test;
+
 public class Ejercicio3Test {
     Ejercicio3 ejercicio3 = new Ejercicio3();
 
     @Test
-    public void calcularMaximoTest() ´{
-        int resultado = ejercicio3.calcularMaximo();
-        Assertions.assertEqual();
+    public void calcularMaximoOkTest() ´{
+       int [] array = {1, 2, 3, 4, 5};
+       int maximo = ejercicio3.calcularMximo(array)
     }
     @Test
     public void calcularMinimoTest() {
