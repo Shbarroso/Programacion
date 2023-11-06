@@ -1,7 +1,5 @@
 package ies.puerto;
 
-import javax.swing.plaf.PanelUI;
-
 /**
  *
  * @author Shbarroso
@@ -23,6 +21,10 @@ public class Persona {
      */
     public Persona(String nombre) {
         this.nombre = nombre;
+    }
+
+    public Persona(int edad) {
+        this.edad = edad;
     }
 
     /**
@@ -107,7 +109,7 @@ public class Persona {
     public String imprimir() {
 
 
-        return "Nombre:" + nombre + "Edad:" + edad + "email:" + email + "telefono:" + telefono
+        return "Nombre:" + nombre + "Edad:" + edad + "email:" + email + "telefono:" + telefono;
     }
 
 }
