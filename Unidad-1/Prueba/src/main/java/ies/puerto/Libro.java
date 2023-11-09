@@ -6,7 +6,7 @@ package ies.puerto;
  */
 public class Libro {
     private String titulo;
-    private int añoPublicado;
+    private int anioPublicado;
     private String autor;
 
     /**
@@ -25,22 +25,22 @@ public class Libro {
     /**
      * Constructor de la clase con el titulo y el añoPublicado
      * @param titulo del libro
-     * @param añoPublicado del libro
+     * @param anioPublicado del libro
      */
-    public Libro(String titulo, int añoPublicado) {
+    public Libro(String titulo, int anioPublicado) {
         this.titulo = titulo;
-        this.añoPublicado = añoPublicado;
+        this.anioPublicado = anioPublicado;
     }
 
     /**
      * Constructor de la clase con nombre, edad y email.
      * @param titulo del libro
-     * @param añoPublicado del libro
+     * @param anioPublicado del libro
      * @param autor del libro
      */
-    public Libro(String titulo, int añoPublicado, String autor) {
+    public Libro(String titulo, int anioPublicado, String autor) {
         this.titulo = titulo;
-        this.añoPublicado = añoPublicado;
+        this.anioPublicado = anioPublicado;
         this.autor = autor;
     }
 
@@ -49,8 +49,8 @@ public class Libro {
         return titulo;
     }
 
-    public int getAñoPublicado() {
-        return añoPublicado;
+    public int getAnioPublicado() {
+        return anioPublicado;
     }
 
     public String getAutor() {
@@ -60,8 +60,8 @@ public class Libro {
     /**
      * Getters/Setters del libro
      */
-    public void setAñoPublicado( int añoPublicado) {
-        this.añoPublicado = añoPublicado;
+    public void setAnioPublicado( int anioPublicado) {
+        this.anioPublicado = anioPublicado;
     }
 
     public void setTitulo(String titulo) {
@@ -72,16 +72,19 @@ public class Libro {
         this.autor = autor;
     }
 
+
+
     /**
      public void imprimirInformacion() {
       System.out.println("titulo:" +titulo);
-      System.out.println("añoPublicado:" +añoPublicado);
+      System.out.println("anioPublicado:" +anioPublicado);
       System.out.println("autor:" +autor);
      }
      **/
     public String imprimirInformacion() {
-
-        return "Titulo:" + titulo + "AñoPublivado:" + añoPublicado + "Autor:" + autor;
+        String resultado ="";
+        resultado = "Titulo:" +titulo+",autor:" +autor+",año:" +anioPublicado;
+        return resultado;
     }
 
 }
