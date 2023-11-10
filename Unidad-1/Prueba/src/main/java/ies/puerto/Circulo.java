@@ -24,6 +24,10 @@ public class Circulo {
         return radio;
     }
 
+    public void setRadio(float radio) {
+        this.radio = radio;
+    }
+
     public float calcularArea() {
         return Math.PI*Math.pow(radio, 2);
     }
@@ -31,5 +35,10 @@ public class Circulo {
         return 2 *(Math.PI + radio);
     }
 
+
+    public String imprimirInformacion() {
+        String resultado ="";
+        resultado = "radio:" +radio;
+        return resultado;
 }
 
