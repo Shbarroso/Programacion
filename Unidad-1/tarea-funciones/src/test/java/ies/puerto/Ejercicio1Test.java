@@ -20,5 +20,12 @@ public class Ejercicio1Test {
         int resultado = ejercicio1.areaTriangulo(base, altura);
         Assertions.assertEquals(resultado, 3, "No se ha obtenido el resultado esperado");
     }
+    @Test
+    public void calcularAreaTrianguloErrorTest() {
+        int base = 2;
+        int altura = 3;
+        int resultado = ejercicio1.areaTriangulo(base, altura);
+        Assertions.assertNotEquals(resultado, 6, "No se ha obtenido el resultado esperado");
+    }
 
 }

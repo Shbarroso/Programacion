@@ -32,5 +32,4 @@ public class Ejercicio4 {
             System.out.println("Valor de la columna;"+(i+1)+"="+sumaColumna);
         }
     }
-
 }

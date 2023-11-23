@@ -1,7 +1,10 @@
 package ies.puerto;
 
 public class Ejercicio5 {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public boolean esPrimo(int numero) {
+        if (numero <= 1) {
+            return false;
+        }
+
     }
 }

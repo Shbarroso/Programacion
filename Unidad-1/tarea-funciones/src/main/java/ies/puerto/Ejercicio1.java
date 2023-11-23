@@ -13,7 +13,6 @@ public class Ejercicio1 {
         resultado = (base*altura)/2;
 
 
-
         return resultado;
     }
 
