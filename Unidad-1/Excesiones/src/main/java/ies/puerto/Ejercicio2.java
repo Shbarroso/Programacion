@@ -6,8 +6,8 @@ public class Ejercicio2 {
     public static void main(String[] args) throws Exception {
         String strNumero = solicitatNumero();
         int numero = tranformarNumeroInt(strNumero);
-        System.out.printf("Valor del numero tranformado:" +numero);
-    }
+'        System.out.printf("Valor del numero tranformado:" +numero);
+'    }
     public static String solicitatNumero() {
         String numero;
         Scanner scanner = new Scanner(System.in);
