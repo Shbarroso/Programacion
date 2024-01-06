@@ -1,0 +1,33 @@
+/**
+ * @author Shbarroso
+ * Haga un programa que busque el número máximo en una matriz de 4x4 y muestre su posición.
+ */
+
+public class Ejercicio89 {
+
+    public static void main(String[] args) {
+        int[][] matriz = {
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}
+        };
+
+        int maximo = matriz[0][0];
+        int filaMaximo = 0;
+        int columnaMaximo = 0;
+
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (matriz[i][j] > maximo) {
+                    maximo = matriz[i][j];
+                    filaMaximo = i;
+                    columnaMaximo = j;
+                }
+            }
+        }
+
+        System.out.println("El número máximo en la matriz es: " + maximo);
+        System.out.println("Se encuentra en la posición: [" + filaMaximo + "][" + columnaMaximo + "]");
+    }
+}
